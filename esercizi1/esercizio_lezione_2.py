@@ -1,12 +1,11 @@
 #scrivere una funzione sum_list che sommi tutti gli elementi di una lista
 
-def sum_list(item):
+def sum_list(argomento_1):
     somma = 0
-    
-    if not number_list:
+    if not argomento_1:
         return None 
     else:
-        for item in number_list:
+        for item in argomento_1:
             somma = somma + item
     return somma
 
